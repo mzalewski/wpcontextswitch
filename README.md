@@ -21,9 +21,14 @@ WP Context Switch was the result
 To install, just download this repository [here](https://github.com/mzalewski/wpcontextswitch/archive/master.zip) and install as a normal WP plugin.
 
 Once activated, it will make some changes to your WordPress installation:
-1 - It will create an "env-config" folder in your WP root directory. This folder contains the PHP script that will load the Context config file and set the current context.
-2 - It will modify your wp-config.php and inject a line that will include the env-config loader script. Your current wp-config.php file will be backed up. (Note: Highly recommended that make your own backup)
-3 - Finally, it will install an mu-plugin to add the menu items to the WP Admin bar
+1. It will create an "env-config" folder in your WP root directory. This folder contains the PHP script that will load the Context config file and set the current context.
+
+2. It will modify your wp-config.php and inject a line that will include the env-config loader script. Your current wp-config.php file will be backed up. (Note: Highly recommended that make your own backup)
+
+3. Finally, it will install an mu-plugin to add the menu items to the WP Admin bar
+
+#### Uninstall
+There is no automatic uninstall. To remove, you will need to manually undo the changes listed above. 
 
 ### Warning: DO NOT USE ON PRODUCTION/LIVE SITES 
 
